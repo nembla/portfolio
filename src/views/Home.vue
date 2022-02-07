@@ -3,7 +3,7 @@
     <div class="left">
       <div class="profileimg">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+          src="../assets/profilePic.jpeg"
           alt="placeholder profile picture"
         />
       </div>
@@ -44,7 +44,6 @@
               <li>Front End Web Development</li>
               <li>Software Engineering</li>
               <li>Machine Learning</li>
-              <li>Video Game Industry</li>
             </ul>
           </div>
         </div>
@@ -53,7 +52,12 @@
           <div class="education">
             <ul>
               <li>
-                <i class="fas fa-user-graduate">MS in Computer Science</i>
+                <font-awesome-icon :icon="['fas', 'graduation-cap']" />
+                MS in Computer Science (2024)
+              </li>
+              <li>
+                <font-awesome-icon :icon="['fas', 'graduation-cap']" />
+                BS in Electrical Engineering (2020)
               </li>
             </ul>
           </div>
@@ -110,8 +114,8 @@ html {
 }
 
 .profileimg img {
-  margin-bottom: 7.5%;
-  max-width: 25%;
+  margin-bottom: 4.5%;
+  max-width: 40%;
   border-radius: 50%;
 }
 
