@@ -99,6 +99,7 @@ html {
 .left {
   margin-top: 5%;
   flex: 2;
+  padding-left: 10%;
 }
 
 .right {

@@ -114,6 +114,18 @@ video {
   margin: 0;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Source+Serif+4&display=swap");
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Source Serif 4", sans-serif;
+}
+
+#app {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Source Serif 4", sans-serif;
+}
+
 #nav {
   padding: 20px;
   display: flex;
@@ -126,13 +138,13 @@ video {
   min-width: 20%;
   color: black;
   font-size: 1.4em;
-  padding-left: 5%;
+  padding-left: 10%;
 }
 
 .navright {
   margin-left: auto;
   min-width: 35%;
-  padding-right: 5%;
+  padding-right: 10%;
   margin-top: 0.25em;
 }
 
