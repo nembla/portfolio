@@ -11,29 +11,21 @@
         <p id="myName">Nemanja Blagojevic</p>
         <p id="myTitle">Software Engineer</p>
       </div>
+      <br />
+      <div class="icons"></div>
     </div>
     <div class="right">
       <div class="righttitle">Biography</div>
       <div class="rightcontent">
-        <p>Hello my name is Nemanja, I am an aspiring software engineer.</p>
+        <p>Hi, I'm Nem, an aspiring software engineer.</p>
+        <br />
         <p>
-          I am currently working at Rheem manufacturing as an Electronic
-          Controls engineer, as part of the systems engineering team.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-          quisquam doloremque illum nulla sint quas et ut officiis vel cumque
-          enim ipsa, odio ipsam at quae ad hic aliquam molestiae.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-          quisquam doloremque illum nulla sint quas et ut officiis vel cumque
-          enim ipsa, odio ipsam at quae ad hic aliquam molestiae.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-          quisquam doloremque illum nulla sint quas et ut officiis vel cumque
-          enim ipsa, odio ipsam at quae ad hic aliquam molestiae.
+          I am currently working at Rheem Manufacturing as an Electronic
+          Controls engineer, as part of the Systems Engineering team. I have a
+          Bachelor's degree in Electrical Engineering from Kennesaw State
+          University, and am pursuing a Master's degree in Computer Science
+          (Computing Systems Specialization) with an expected graduation in
+          2025.
         </p>
       </div>
       <div class="rightinfo">
@@ -41,9 +33,8 @@
           <div class="rightinfolisttittle">Interests</div>
           <div class="interests">
             <ul>
-              <li>Front End Web Development</li>
+              <li>Front-End Web Development</li>
               <li>Software Engineering</li>
-              <li>Machine Learning</li>
             </ul>
           </div>
         </div>
@@ -53,7 +44,7 @@
             <ul>
               <li>
                 <font-awesome-icon :icon="['fas', 'graduation-cap']" />
-                MS in Computer Science (2024)
+                MS in Computer Science (2025)
               </li>
               <li>
                 <font-awesome-icon :icon="['fas', 'graduation-cap']" />
@@ -104,7 +95,7 @@ html {
 
 .right {
   margin-top: 5%;
-  flex: 2;
+  flex: 3;
   margin-right: 10%;
   text-align: left;
 }
