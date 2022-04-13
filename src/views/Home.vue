@@ -23,9 +23,20 @@
           I am currently working at Rheem Manufacturing as an Electronic
           Controls engineer, as part of the Systems Engineering team. I have a
           Bachelor's degree in Electrical Engineering from Kennesaw State
-          University, and am pursuing a Master's degree in Computer Science
-          (Computing Systems Specialization) with an expected graduation in
-          2025.
+          University, and am looking to move into the Software Engineering
+          industry.
+        </p>
+        <br />
+        <p>
+          I consider myself a fast learner and I am definitely not afraid to ask
+          questions. After working as a Electronic Controls - Systems Engineer
+          for a year, I understand the importance of asking good questions in
+          team meetings, and having clearly defined requirements for products.
+        </p>
+        <br />
+        <p>
+          I am actively looking for full time web developer positions
+          (front-end, back-end, and full-stack engineer).
         </p>
       </div>
       <div class="rightinfo">
@@ -33,8 +44,30 @@
           <div class="rightinfolisttittle">Interests</div>
           <div class="interests">
             <ul>
-              <li>Front-End Web Development</li>
-              <li>Software Engineering</li>
+              <li>
+                Front-End Web Development
+                <ul>
+                  <li>Vue.js</li>
+                  <li>React</li>
+                  <li>JavaScript</li>
+                  <li>HTML / CSS</li>
+                </ul>
+              </li>
+              <li>
+                Back-End Web Development
+                <ul>
+                  <li>MongoDB</li>
+                  <li>Express.js</li>
+                  <li>Node.js</li>
+                  <li>Django</li>
+                </ul>
+              </li>
+              <li>
+                Software Engineering
+                <ul>
+                  <li>Python</li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -42,10 +75,6 @@
           <div class="rightinfolisttittle">Education</div>
           <div class="education">
             <ul>
-              <li>
-                <font-awesome-icon :icon="['fas', 'graduation-cap']" />
-                MS in Computer Science (2025)
-              </li>
               <li>
                 <font-awesome-icon :icon="['fas', 'graduation-cap']" />
                 BS in Electrical Engineering (2020)
@@ -143,5 +172,9 @@ html {
 
 .education ul li {
   margin-top: 5px;
+}
+
+ul ul {
+  margin-left: 20px;
 }
 </style>
