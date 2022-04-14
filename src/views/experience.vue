@@ -2,16 +2,28 @@
   <div class="experience">Experience</div>
   <div class="panels">
     <div class="col bsee">
-      <div class="colTitle">B.S. Electrical Engineering</div>
+      <div class="colTitle">
+        Electrical <br />
+        Engineer
+      </div>
     </div>
     <div class="col research">
-      <div class="colTitle">Undergraduate Research</div>
+      <div class="colTitle">
+        Undergraduate <br />
+        Research
+      </div>
     </div>
     <div class="col rheem">
-      <div class="colTitle">Electronic Controls Engineer <br /></div>
+      <div class="colTitle">
+        Systems <br />
+        Engineer
+      </div>
     </div>
     <div class="col webdev">
-      <div class="colTitle">Web Development</div>
+      <div class="colTitle">
+        Web <br />
+        Development
+      </div>
     </div>
   </div>
 </template>
@@ -25,7 +37,7 @@ export default {};
   display: flex;
   flex-direction: row;
   flex-grow: 2;
-  margin-top: 2.5em;
+  margin-top: 1em;
   justify-content: center;
   font-size: 2.5em;
 }
@@ -43,17 +55,18 @@ export default {};
 .col {
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
+  flex-grow: 1;
   border: 1px black solid;
   margin: 0 2em;
   min-height: 60vh;
+  min-width: 220px;
   transition: 350ms;
 }
 
 .col:hover {
   border: 2px black solid;
   opacity: 1;
-  font-size: 2.5em;
+  font-size: 1.3em;
   transform: scale(1.1);
   cursor: pointer;
   color: white;

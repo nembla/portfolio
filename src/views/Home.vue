@@ -85,7 +85,7 @@
             <ul>
               <li>
                 <font-awesome-icon :icon="['fas', 'graduation-cap']" />
-                BS in Electrical Engineering (2020)
+                BS in Electrical Engineering
               </li>
             </ul>
           </div>
@@ -103,6 +103,7 @@ export default {};
 html {
   margin: 0;
   padding: 0;
+  background-color: #1d2d44;
 }
 
 .main {
@@ -167,6 +168,7 @@ html {
 .interests {
   margin-left: 10%;
   text-align: left;
+  margin-bottom: 20%;
 }
 
 .interests ul li {
