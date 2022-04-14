@@ -12,7 +12,7 @@
         <p id="myTitle">Software Engineer</p>
       </div>
       <br />
-      <div class="icons"></div>
+      <div class="icons">insert icons lmao</div>
     </div>
     <div class="right">
       <div class="righttitle">Biography</div>
@@ -23,20 +23,28 @@
           I am currently working at Rheem Manufacturing as an Electronic
           Controls engineer, as part of the Systems Engineering team. I have a
           Bachelor's degree in Electrical Engineering from Kennesaw State
-          University, and am looking to move into the Software Engineering
-          industry.
+          University.
         </p>
         <br />
         <p>
           I consider myself a fast learner and I am definitely not afraid to ask
-          questions. After working as a Electronic Controls - Systems Engineer
-          for a year, I understand the importance of asking good questions in
-          team meetings, and having clearly defined requirements for products.
+          questions. After working as a Systems Engineer at Rheem Mfg. for a
+          year, I understand the importance of asking good questions in team
+          meetings, and having clearly defined requirements for products. As a
+          Systems engineer in product development, my main duties include
+          working with the product management department to generate business
+          requirement documents, creating a function specification for our
+          controls based on those requests, and running system integration tests
+          once we had prototype controls in our hands. I am accostomed to
+          working in multiple teams simultaneously, with team members that have
+          a wide variety of backgrounds.
         </p>
         <br />
         <p>
           I am actively looking for full time web developer positions
-          (front-end, back-end, and full-stack engineer).
+          (front-end, back-end, and full-stack engineer). I am interested in
+          environments that are conducive to learning, collaborating, and
+          growing as a SWE!
         </p>
       </div>
       <div class="rightinfo">
@@ -149,7 +157,7 @@ html {
 
 .rightinfolist {
   flex: 1;
-  text-align: center;
+  text-align: left;
 }
 
 .rightinfolisttittle {

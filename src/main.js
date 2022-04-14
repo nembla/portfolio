@@ -12,6 +12,7 @@ import { faGraduationCap, faPhone } from "@fortawesome/free-solid-svg-icons";
 // import icon component
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
+
 // add icons to library
 library.add(faPhone);
 library.add(faGraduationCap);

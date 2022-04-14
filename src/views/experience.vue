@@ -56,6 +56,7 @@ export default {};
   font-size: 2.5em;
   transform: scale(1.1);
   cursor: pointer;
+  color: white;
 }
 
 .colTitle {
