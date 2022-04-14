@@ -4,6 +4,9 @@ import experience from '../views/experience.vue'
 import projects from '../views/projects.vue'
 import resume from '../views/resume.vue'
 import contact from '../views/contact.vue'
+import bsee from '../views/bsee.vue'
+import research from '../views/research.vue'
+import rheem from '../views/rheem.vue'
 
 const routes = [
   {
@@ -30,6 +33,21 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: contact
+  },
+  {
+    path: '/bsee',
+    name: 'bsee',
+    component: bsee
+  },
+  {
+    path: '/research',
+    name: 'research',
+    component: research
+  },
+  {
+    path: '/rheem',
+    name: 'rheem',
+    component: rheem
   }
 ]
 

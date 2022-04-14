@@ -1,25 +1,25 @@
 <template>
   <div class="experience">Experience</div>
   <div class="panels">
-    <div class="col bsee">
+    <div class="col bsee" @click="goToBsee()">
       <div class="colTitle">
         Electrical <br />
         Engineer
       </div>
     </div>
-    <div class="col research">
+    <div class="col research" @click="goToResearch()">
       <div class="colTitle">
         Undergraduate <br />
         Research
       </div>
     </div>
-    <div class="col rheem">
+    <div class="col rheem" @click="goToRheem()">
       <div class="colTitle">
         Systems <br />
         Engineer
       </div>
     </div>
-    <div class="col webdev">
+    <div class="col webdev" @click="goToProjects()">
       <div class="colTitle">
         Web <br />
         Development
@@ -29,7 +29,22 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    goToProjects() {
+      this.$router.push("/projects");
+    },
+    goToBsee() {
+      this.$router.push("/bsee");
+    },
+    goToResearch() {
+      this.$router.push("/research");
+    },
+    goToRheem() {
+      this.$router.push("/rheem");
+    },
+  },
+};
 </script>
 
 <style>

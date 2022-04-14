@@ -30,14 +30,9 @@
           I consider myself a fast learner and I am definitely not afraid to ask
           questions. After working as a Systems Engineer at Rheem Mfg. for a
           year, I understand the importance of asking good questions in team
-          meetings, and having clearly defined requirements for products. As a
-          Systems engineer in product development, my main duties include
-          working with the product management department to generate business
-          requirement documents, creating a function specification for our
-          controls based on those requests, and running system integration tests
-          once we had prototype controls in our hands. I am accostomed to
-          working in multiple teams simultaneously, with team members that have
-          a wide variety of backgrounds.
+          meetings, and having clearly defined requirements for products. I am
+          accostomed to working in multiple teams simultaneously, with team
+          members that have a wide variety of backgrounds.
         </p>
         <br />
         <p>
@@ -55,12 +50,19 @@
               <li>
                 Front-End Web Development
                 <ul>
-                  <li>Vue.js</li>
                   <li>React</li>
+                  <li>Vue.js</li>
                   <li>JavaScript</li>
                   <li>HTML / CSS</li>
                 </ul>
               </li>
+            </ul>
+          </div>
+        </div>
+        <div class="rightinfolist">
+          <div class="rightinfolisttittle"><br /></div>
+          <div class="education">
+            <ul>
               <li>
                 Back-End Web Development
                 <ul>
@@ -69,23 +71,6 @@
                   <li>Node.js</li>
                   <li>Django</li>
                 </ul>
-              </li>
-              <li>
-                Software Engineering
-                <ul>
-                  <li>Python</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="rightinfolist">
-          <div class="rightinfolisttittle">Education</div>
-          <div class="education">
-            <ul>
-              <li>
-                <font-awesome-icon :icon="['fas', 'graduation-cap']" />
-                BS in Electrical Engineering
               </li>
             </ul>
           </div>
