@@ -9,6 +9,7 @@
       </div>
       <div class="name">
         <p id="myName">Nemanja Blagojevic</p>
+        <p id="myTitle">B.S. in Electrical Engineering</p>
         <p id="myTitle">Software Engineer</p>
       </div>
       <br />

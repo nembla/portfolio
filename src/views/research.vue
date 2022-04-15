@@ -3,20 +3,18 @@
   <div class="researchLeft">
     <div class="researchCol researchCol2">
       <div class="researchColTitle">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga eveniet
-        quis debitis eligendi temporibus voluptatibus ut quaerat maxime
-        doloribus tempora voluptate doloremque, sint voluptatum voluptas. Facere
-        illo inventore quod totam. Lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Aspernatur praesentium eos voluptate, corporis veniam
-        culpa aperiam amet cumque possimus laboriosam expedita consequatur
-        consequuntur id ab voluptas eius, itaque sunt vitae? Quia nobis deserunt
-        fuga repudiandae sint facilis sunt. Architecto, ea. Tempora error ipsum
-        aliquid harum, ullam, dolorem voluptatem quae illo quidem quibusdam et,
-        doloribus fugiat aperiam quam repudiandae iusto recusandae. Obcaecati
-        accusamus voluptas et sit molestiae fugiat necessitatibus iusto ratione
-        quibusdam sunt quas perferendis quam similique, placeat adipisci
-        laudantium, deserunt, molestias natus qui repellendus deleniti.
-        Similique laboriosam accusamus non! Illum.
+        In the last year of studies for my undergraduate degree, I was selected
+        to work on a research project with one of my professors at KSU. In the
+        first semester, the topic was Electromagnetics, specifically Radio
+        Frequency to Direct Current conversion, using a 2-stage charge pump
+        circuit with a matching network to minimize power reflected. If you are
+        interested in more information surrounding this project, please view
+        <a
+          href="https://www.linkedin.com/in/nblagoje/overlay/1635453887086/single-media-viewer/"
+          target="_blank"
+          >this</a
+        >
+        presentation slide!
       </div>
       <div class="researchColTitle">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores minima
@@ -33,16 +31,6 @@
         praesentium explicabo eaque corrupti officia numquam unde, repudiandae
         suscipit. Sunt molestias unde repudiandae consequatur iusto alias ullam
         beatae possimus.
-      </div>
-      <div class="researchColTitle">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-        reiciendis quod eum fugit, doloribus facilis impedit quia reprehenderit
-        repellendus, dicta est sunt temporibus laboriosam adipisci. Dicta
-        molestias praesentium cupiditate corporis? Maiores facere aperiam ex
-        reprehenderit ipsa neque perspiciatis corporis eum, illum voluptatum
-        eius sed delectus perferendis, dolores dolorem ad eveniet laboriosam
-        consectetur accusantium assumenda! Quam similique eaque sit voluptas
-        magnam?
       </div>
     </div>
     <div class="researchCol researchCol1">
@@ -101,5 +89,23 @@ export default {};
   margin-top: 1em;
   justify-content: center;
   font-size: 2.5em;
+}
+
+a:link {
+  color: #0000ee;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #551a8b;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ee0000;
+  background-color: transparent;
+  text-decoration: underline;
 }
 </style>
