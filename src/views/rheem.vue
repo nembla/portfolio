@@ -32,7 +32,7 @@
       </div>
       <div class="rheemColTitle twoway">
         <div class="econet">
-          <div class="smallTitle">Remote Test</div>
+          <div class="smallTitle">Remote Controller Connection</div>
           This project began when there was a company wide initiative to begin
           remotely testing our controls. We had an existing proprietary
           application that we use to communicate with our controls over a serial
@@ -90,10 +90,11 @@ export default {};
   text-align: left;
   margin: 25px;
   margin-bottom: 0;
+  margin-top: 10px;
 }
 
 .rheemCol1 {
-  max-width: 40vw;
+  max-width: 20vw;
   background-image: url("https://images.pexels.com/photos/3850910/pexels-photo-3850910.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   opacity: 0.8;
   background-size: cover;

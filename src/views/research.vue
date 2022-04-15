@@ -17,20 +17,20 @@
         presentation slide!
       </div>
       <div class="researchColTitle">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores minima
-        reprehenderit sint, deserunt quia dignissimos incidunt. Accusamus
-        similique ipsum esse sequi. Blanditiis maiores laborum dolorem
-        aspernatur quo repellat repellendus reiciendis. Nihil tempora doloremque
-        quidem eius officia nam facere quo, nobis dolore odit voluptates ut vero
-        molestias aliquid. Incidunt sint, explicabo qui culpa, unde illum quod
-        necessitatibus velit ut quaerat quibusdam. Dolor neque, animi quia
-        adipisci odit consequatur impedit reprehenderit assumenda a laborum sed
-        ad iste nulla inventore dignissimos dolores mollitia vel enim
-        exercitationem error, esse corrupti. Dolores illo atque ullam? Quia id
-        eligendi, possimus ullam modi ab aliquam, quos laudantium laborum
-        praesentium explicabo eaque corrupti officia numquam unde, repudiandae
-        suscipit. Sunt molestias unde repudiandae consequatur iusto alias ullam
-        beatae possimus.
+        The more relevant research was conducted in the second half of the term.
+        The goal was to replicate what we completed above (the circuit design of
+        the charge pump), with the same power reflection and behavioural
+        results, but using machine learning to design the matching network. The
+        matching network, in this case, was in an L-shape and had one capacitor
+        and one inductor. This means that for our model we have two variables
+        that need to be selected and then the output computed. In this project,
+        I gained some understanding of how machine learning mdoels worked, as
+        well as how Python libraries such as Pandas, NumPy, Sklearn, and
+        Matplotlib worked. Although this work was never published like the
+        project above, the source code may be found on my
+        <a href="https://github.com/nemanjaone/wptai" target="_blank"
+          >GitHub page</a
+        >.
       </div>
     </div>
     <div class="researchCol researchCol1">
@@ -68,6 +68,7 @@ export default {};
   text-align: left;
   margin: 25px;
   margin-bottom: 0;
+  margin-top: 10px;
 }
 
 .researchCol1 {

@@ -112,13 +112,13 @@ html {
 }
 
 .left {
-  margin-top: 5%;
+  margin-top: 3%;
   flex: 2;
   padding-left: 10%;
 }
 
 .right {
-  margin-top: 5%;
+  margin-top: 3%;
   flex: 3;
   margin-right: 10%;
   text-align: left;
