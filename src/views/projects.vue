@@ -12,58 +12,94 @@
   <div class="project project1">
     <div class="projLeft projComponent">
       <div class="projImage">
-        <img
-          src="https://images.unsplash.com/photo-1504253163759-c23fccaebb55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          alt=""
-          srcset=""
-        />
+        <a href="https://github.com/nemanjaone/weatherapp_vue" target="_blank"
+          ><img
+            src="https://images.unsplash.com/photo-1504253163759-c23fccaebb55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+            alt=""
+            srcset=""
+        /></a>
       </div>
     </div>
     <div class="projRight">
-      <div class="projTitle">Cloud.World</div>
+      <div class="projTitle">CLOUD.WORLD <i class="bi bi-cloud-haze"></i></div>
       <div class="projComponent projDesc">
         Cloud World is a simple weather app. The app was built using Vue.js. It
         uses OpenWeather API for real time accurate weather data and the Pexels
         API for dynamically searching for and applying a background based on
-        user query.
+        user query (i.e. what location they want to see the weather for).
+        <br />
+        The user interface also has a hidden feature: by single-clicking on the
+        temperature output, the user may dynamically swap between using
+        Fahrenheit and Celcius!
       </div>
       <div class="projComponent projTech">
         Vue.js --- OpenWeather --- Pexels
       </div>
-      <div class="projComponent projTech"><i class="fa fa-github"></i></div>
+      <div class="projComponent projTech">
+        <a href="https://github.com/nemanjaone/weatherapp_vue" target="_blank"
+          ><i class="fa fa-github" style="font-size: 24px"></i
+        ></a>
+      </div>
     </div>
   </div>
 
-  <div class="project">
-    <div class="projRight">
-      <div class="projTitle">Matching Network AI</div>
+  <div class="project project1">
+    <div class="projLeft">
+      <div class="projTitle projAlt">Wireless Power Transfer // ML</div>
       <div class="projComponent projDesc">
-        Cloud World is a weather app. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Vero voluptas dicta facilis pariatur quo, inventore,
-        quaerat voluptatum quos optio veniam magni aliquam dolores voluptatibus
-        voluptate sit ipsa, sed vel earum.
+        This project was a created to try and predict the values of a capacitor
+        and inductor in L-shaped matching network configuration. Power
+        reflection is a big concern on RFIC (Radio Frequency Integrated
+        Circuits), so minimizing reflection is important. This was my first
+        brush with machine learning (linear regression). Research conducted at
+        Kennesaw State University 2019.
+      </div>
+      <div class="projComponent projTech projTech2">
+        Python --- Pandas --- NumPy --- Matplotlib
+      </div>
+      <div class="projComponent projTech projTech2">
+        <a href="https://github.com/nemanjaone/wptai" target="_blank"
+          ><i class="fa fa-github" style="font-size: 24px"></i
+        ></a>
       </div>
     </div>
-    <div class="projLeft projComponent">
-      <div id="cloudWorld" class="projTitle">
-        <i class="bi bi-cloud-haze"></i>
+    <div class="projRight projComponent">
+      <div class="projImage projImage2">
+        <a href="https://github.com/nemanjaone/wptai" target="_blank"
+          ><img
+            src="https://images.unsplash.com/photo-1586256053828-a36b572ab01d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2231&q=80"
+            alt=""
+            srcset=""
+        /></a>
       </div>
     </div>
   </div>
 
   <div class="project project1">
     <div class="projLeft projComponent">
-      <div id="cloudWorld" class="projTitle">
-        <i class="bi bi-cloud-haze"></i>
+      <div class="projImage">
+        <a href="https://github.com/nemanjaone/google_trans" target="_blank"
+          ><img
+            src="https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80"
+            alt=""
+            srcset=""
+        /></a>
       </div>
     </div>
     <div class="projRight">
       <div class="projTitle">PyTranslate</div>
       <div class="projComponent projDesc">
-        Cloud World is a weather app. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Vero voluptas dicta facilis pariatur quo, inventore,
-        quaerat voluptatum quos optio veniam magni aliquam dolores voluptatibus
-        voluptate sit ipsa, sed vel earum.
+        Python translate is a desktop application that uses the Google Translate
+        API, as well as a UI created with tkinter. The application supports 109
+        languages.
+      </div>
+      <div class="projComponent projTech">
+        Python --- Google Translate API --- Tkinter
+      </div>
+      <div class="projComponent projTech">
+        <a href="https://github.com/nemanjaone/google_trans" target="_blank"
+          ><i class="fa fa-github" style="font-size: 24px"></i
+        ></a>
       </div>
     </div>
   </div>
@@ -80,6 +116,7 @@ export default {};
   flex-direction: row;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 7vh;
 }
 
 .projComponent {
@@ -105,26 +142,36 @@ export default {};
   box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 5px;
-}
-
-.projRight {
-}
-
-.project1 {
-  padding-right: 100px;
-}
-
-.project2 {
+  text-align: start;
 }
 
 .projImage img {
-  max-width: 30vw;
+  max-height: 38vh;
+  max-width: 25vw;
   border-radius: 8px;
+  transition-duration: 200ms;
 }
 
 .projTech {
   margin: auto;
   text-align: end;
   margin-top: 8px;
+}
+
+.projAlt {
+  justify-content: start;
+}
+
+.projTech2 {
+  text-align: start;
+}
+
+.projImage img:hover {
+  /* border: 2px black solid; */
+  opacity: 1;
+  font-size: 1.3em;
+  transform: scale(1.03);
+  cursor: pointer;
+  color: white;
 }
 </style>
