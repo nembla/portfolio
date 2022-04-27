@@ -73,8 +73,7 @@ export default {};
 
 .researchCol1 {
   max-width: 40vw;
-  background-image: url("https://images.pexels.com/photos/3646172/pexels-photo-3646172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  opacity: 0.8;
+  background-image: url("https://images.unsplash.com/photo-1572224104781-f0c8369cae20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
   background-size: cover;
   flex-grow: 1;
 }

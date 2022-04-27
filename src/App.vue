@@ -1,4 +1,10 @@
 <template>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+    rel="stylesheet"
+  />
   <div id="nav">
     <div class="navleft">
       <router-link to="/">Nemanja Blagojevic</router-link>
@@ -103,27 +109,23 @@ video {
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #f0ebd8;
-  background-color: #1d2d44;
+  color: #171717;
   height: 100vh;
   padding: 0;
   margin: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Source+Serif+4&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 html,
 body {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Source Serif 4", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #app {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Source Serif 4", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #nav {
@@ -131,12 +133,13 @@ body {
   display: flex;
   padding-left: 4%;
   background-color: white;
-  color: #0d1321;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 2px 4px 12px 1px rgba(0, 0, 0, 0.1);
 }
 
 .navleft {
   min-width: 20%;
-  color: black;
+  color: white;
   font-size: 1.4em;
   padding-left: 10%;
 }
@@ -150,7 +153,7 @@ body {
 
 #nav a {
   font-weight: bold;
-  color: #0d1321;
+  color: #171717;
   margin: 0% 3%;
   text-decoration: none;
   transition: 100ms;

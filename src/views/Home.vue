@@ -1,4 +1,8 @@
 <template>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
   <div class="main">
     <div class="left">
       <div class="profileimg">
@@ -13,7 +17,14 @@
         <p id="myTitle">Software Engineer</p>
       </div>
       <br />
-      <div class="icons">insert icons lmao</div>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/nblagoje/" target="_blank"
+          ><i class="fa fa-linkedin-square" style="font-size: 24px"></i
+        ></a>
+        <a href="https://github.com/nemanjaone" target="_blank"
+          ><i class="fa fa-github" style="font-size: 24px"></i
+        ></a>
+      </div>
     </div>
     <div class="right">
       <div class="righttitle">Biography</div>
@@ -22,7 +33,7 @@
         <br />
         <p>
           I am currently working at Rheem Manufacturing as an Electronic
-          Controls engineer, as part of the Systems Engineering team. I have a
+          Controls Engineer, as part of the Systems Engineering team. I have a
           Bachelor's degree in Electrical Engineering from Kennesaw State
           University.
         </p>
@@ -53,8 +64,8 @@
                 <ul>
                   <li>React</li>
                   <li>Vue.js</li>
-                  <li>JavaScript</li>
-                  <li>HTML / CSS</li>
+                  <li>JavaScript ✓</li>
+                  <li>HTML / CSS ✓</li>
                 </ul>
               </li>
             </ul>
@@ -89,17 +100,14 @@ export default {};
 html {
   margin: 0;
   padding: 0;
-  background-color: #1d2d44;
 }
 
 .main {
   min-height: 90vh;
   margin: auto;
-  background-color: #1d2d44;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0 2em;
 }
 
 #myName {
@@ -172,5 +180,9 @@ html {
 
 ul ul {
   margin-left: 20px;
+}
+
+.icons a {
+  margin: 0px 5px;
 }
 </style>

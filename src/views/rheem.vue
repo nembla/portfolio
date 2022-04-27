@@ -28,7 +28,7 @@
         working on system integration tests, and a Python script that uses the
         Selenium library to automate testing! While I cannot show you the source
         code for these projects, I can give a brief overview of what the goals
-        for the projects were and generall how they worked:
+        for the projects were and generally how they worked:
       </div>
       <div class="rheemColTitle twoway">
         <div class="econet">
@@ -95,8 +95,7 @@ export default {};
 
 .rheemCol1 {
   max-width: 20vw;
-  background-image: url("https://images.pexels.com/photos/3850910/pexels-photo-3850910.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-  opacity: 0.8;
+  background-image: url("https://images.unsplash.com/photo-1616628188506-4ad99d65640e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
   background-size: cover;
   flex-grow: 1;
 }

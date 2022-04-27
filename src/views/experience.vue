@@ -19,12 +19,12 @@
         Engineer
       </div>
     </div>
-    <div class="col webdev" @click="goToProjects()">
+    <!-- <div class="col webdev" @click="goToProjects()">
       <div class="colTitle">
         Web <br />
         Development
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -71,15 +71,16 @@ export default {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  border: 1px black solid;
+  border-radius: 5%;
   margin: 0 2em;
   min-height: 60vh;
   min-width: 220px;
   transition: 350ms;
+  color: white;
 }
 
 .col:hover {
-  border: 2px black solid;
+  /* border: 2px black solid; */
   opacity: 1;
   font-size: 1.3em;
   transform: scale(1.1);
@@ -93,25 +94,25 @@ export default {
 
 .bsee {
   background-image: url("https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  opacity: 0.8;
+  opacity: 1;
   background-size: cover;
 }
 
 .research {
-  background-image: url("https://images.pexels.com/photos/3646172/pexels-photo-3646172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  opacity: 0.8;
+  background-image: url("https://images.unsplash.com/photo-1572224104781-f0c8369cae20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  opacity: 1;
   background-size: cover;
 }
 
 .rheem {
-  background-image: url("https://images.pexels.com/photos/3850910/pexels-photo-3850910.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-  opacity: 0.8;
+  background: url("https://images.unsplash.com/photo-1616628188506-4ad99d65640e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  opacity: 1;
   background-size: cover;
 }
 
 .webdev {
   background-image: url("https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-  opacity: 0.8;
+  opacity: 1;
   background-size: cover;
 }
 </style>

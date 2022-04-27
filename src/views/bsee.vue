@@ -67,7 +67,6 @@ export default {};
 .bseeCol1 {
   max-width: 40vw;
   background-image: url("https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  opacity: 0.8;
   background-size: cover;
   flex-grow: 1;
 }
