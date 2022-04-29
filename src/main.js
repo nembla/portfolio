@@ -1,6 +1,12 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import Vue from 'vue'
+
+createApp(App).use(router).component("font-awesome-icon", FontAwesomeIcon).mount('#app')
+
+const VueFormulate = require('@braid/vue-formulate')
+Vue.use(VueFormulate.default)
 
 
 // import fontawesome core
@@ -17,4 +23,3 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(faPhone);
 library.add(faGraduationCap);
 
-createApp(App).use(router).component("font-awesome-icon", FontAwesomeIcon).mount('#app')
