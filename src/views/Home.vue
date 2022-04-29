@@ -181,4 +181,8 @@ ul ul {
 .icons a {
   margin: 0px 5px;
 }
+
+.rightcontent {
+  max-width: 85%;
+}
 </style>

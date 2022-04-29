@@ -13,7 +13,6 @@
       <router-link to="/experience">Experience</router-link>
       <router-link to="/projects">Projects</router-link>
       <router-link to="/resume">Resume</router-link>
-      <router-link to="/contact">Contact</router-link>
     </div>
   </div>
   <router-view />
@@ -141,7 +140,7 @@ body {
   min-width: 20%;
   color: white;
   font-size: 1.4em;
-  padding-left: 10%;
+  padding-left: 13%;
 }
 
 .navright {

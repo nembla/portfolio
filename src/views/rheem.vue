@@ -98,6 +98,7 @@ export default {};
   background-image: url("https://images.unsplash.com/photo-1616628188506-4ad99d65640e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
   background-size: cover;
   flex-grow: 1;
+  border-radius: 8px;
 }
 
 .rheemCol2 {
