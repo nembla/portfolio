@@ -116,7 +116,7 @@ html {
 }
 
 #myTitle {
-  opacity: 50%;
+  opacity: 70%;
 }
 
 .left {
