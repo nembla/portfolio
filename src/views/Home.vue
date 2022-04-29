@@ -115,10 +115,6 @@ html {
   margin-bottom: 10px;
 }
 
-#myTitle {
-  opacity: 70%;
-}
-
 .left {
   margin-top: 3%;
   flex: 2;
