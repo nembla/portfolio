@@ -12,7 +12,7 @@
     <div class="navright">
       <router-link to="/experience">Experience</router-link>
       <router-link to="/projects">Projects</router-link>
-      <a href="/files/nemblaResume.pdf" download target="_blank">Resume</a>
+      <a href="/files/nemblaResume.pdf" download>Resume</a>
     </div>
   </div>
   <router-view />
@@ -137,11 +137,10 @@ body {
 }
 
 .navleft {
-  text-align: center;
   min-width: 20%;
   color: white;
   font-size: 1.4em;
-  align-items: center;
+  text-align: start;
 }
 
 .navright {
@@ -162,10 +161,6 @@ body {
   transition: 100ms;
   align-items: center;
   text-align: center;
-}
-
-.navright a.router-link-exact-active {
-  color: #748cab;
 }
 
 .navDec:hover {
