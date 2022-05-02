@@ -95,18 +95,12 @@ export default {};
 a:link {
   color: #0000ee;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
   color: #551a8b;
   background-color: transparent;
   text-decoration: none;
-}
-
-a:hover {
-  color: #ee0000;
-  background-color: transparent;
-  text-decoration: underline;
 }
 </style>

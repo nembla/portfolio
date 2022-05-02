@@ -13,16 +13,16 @@
       </div>
       <div class="name">
         <p id="myName">Nemanja Blagojevic</p>
-        <p id="myTitle">B.S. in Electrical Engineering</p>
         <p id="myTitle">Software Engineer</p>
+        <p id="myTitle">B.S. Electrical Engineering</p>
       </div>
       <br />
       <div class="icons">
         <a href="https://www.linkedin.com/in/nblagoje/" target="_blank"
-          ><i class="fa fa-linkedin-square" style="font-size: 24px"></i
+          ><i class="fa fa-linkedin-square linkedIn" style="font-size: 24px"></i
         ></a>
         <a href="https://github.com/nemanjaone" target="_blank"
-          ><i class="fa fa-github" style="font-size: 24px"></i
+          ><i class="fa fa-github gitHub" style="font-size: 24px"></i
         ></a>
       </div>
     </div>
@@ -115,6 +115,10 @@ html {
   margin-bottom: 10px;
 }
 
+#myTitle {
+  margin-top: 7px;
+}
+
 .left {
   margin-top: 3%;
   flex: 2;
@@ -184,5 +188,13 @@ ul ul {
 
 .rightcontent {
   max-width: 85%;
+}
+
+.linkedIn {
+  color: #0072b1;
+}
+
+.gitHub {
+  color: black;
 }
 </style>
