@@ -12,7 +12,7 @@
     <div class="navright">
       <router-link to="/experience">Experience</router-link>
       <router-link to="/projects">Projects</router-link>
-      <router-link to="/resume">Resume</router-link>
+      <a href="/files/nemblaResume.pdf" download target="_blank">Resume</a>
     </div>
   </div>
   <router-view />
@@ -128,37 +128,47 @@ body {
 }
 
 #nav {
-  padding: 20px;
+  padding: 20px 10px;
   display: flex;
-  padding-left: 4%;
   background-color: white;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 2px 4px 12px 1px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .navleft {
+  text-align: center;
   min-width: 20%;
   color: white;
   font-size: 1.4em;
-  padding-left: 13%;
+  align-items: center;
 }
 
 .navright {
+  display: flex;
   margin-left: auto;
   min-width: 35%;
-  padding-right: 10%;
   margin-top: 0.25em;
+  justify-content: end;
+  text-align: center;
 }
 
 #nav a {
+  margin: auto;
   font-weight: bold;
   color: #171717;
   margin: 0% 3%;
   text-decoration: none;
   transition: 100ms;
+  align-items: center;
+  text-align: center;
 }
 
 .navright a.router-link-exact-active {
   color: #748cab;
+}
+
+.navDec:hover {
+  text-decoration: underline;
 }
 </style>
