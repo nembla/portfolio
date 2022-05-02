@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="projRight">
-      <div class="projTitle">CLOUD.WORLD <i class="bi bi-cloud-haze"></i></div>
+      <div class="projTitle">Cloud.World <i class="bi bi-cloud-haze"></i></div>
       <div class="projComponent projDesc">
         Cloud World is a simple weather app. The app was built using Vue.js. It
         uses OpenWeather API for real time accurate weather data and the Pexels
@@ -37,7 +37,7 @@
       </div>
       <div class="projComponent projTech">
         <a href="https://github.com/nemanjaone/weatherapp_vue" target="_blank"
-          ><i class="fa fa-github" style="font-size: 24px"></i
+          ><i class="fa fa-github gitHub" style="font-size: 24px"></i
         ></a>
       </div>
     </div>
@@ -59,7 +59,7 @@
       </div>
       <div class="projComponent projTech projTech2">
         <a href="https://github.com/nemanjaone/wptai" target="_blank"
-          ><i class="fa fa-github" style="font-size: 24px"></i
+          ><i class="fa fa-github gitHub" style="font-size: 24px"></i
         ></a>
       </div>
     </div>
@@ -98,7 +98,7 @@
       </div>
       <div class="projComponent projTech">
         <a href="https://github.com/nemanjaone/google_trans" target="_blank"
-          ><i class="fa fa-github" style="font-size: 24px"></i
+          ><i class="fa fa-github gitHub" style="font-size: 24px"></i
         ></a>
       </div>
     </div>
@@ -133,6 +133,7 @@ export default {};
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 1.5em;
+  font-weight: 600;
 }
 
 .projDesc {
@@ -156,6 +157,7 @@ export default {};
   margin: auto;
   text-align: end;
   margin-top: 8px;
+  color: gray;
 }
 
 .projAlt {
@@ -173,5 +175,9 @@ export default {};
   transform: scale(1.03);
   cursor: pointer;
   color: white;
+}
+
+.gitHub {
+  color: black;
 }
 </style>
