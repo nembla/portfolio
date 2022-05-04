@@ -40,7 +40,12 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "app",
+  created() {
+    document.title = "Research";
+  },
+};
 </script>
 
 <style>

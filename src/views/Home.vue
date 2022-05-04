@@ -93,7 +93,12 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "app",
+  created() {
+    document.title = "Nem's Portfolio";
+  },
+};
 </script>
 
 <style>
@@ -117,6 +122,7 @@ html {
 
 #myTitle {
   margin-top: 7px;
+  color: gray;
 }
 
 .left {

@@ -57,7 +57,12 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "app",
+  created() {
+    document.title = "Systems Engineer";
+  },
+};
 </script>
 
 <style>

@@ -44,6 +44,10 @@ export default {
       this.$router.push("/rheem");
     },
   },
+  name: "app",
+  created() {
+    document.title = "Experience";
+  },
 };
 </script>
 
