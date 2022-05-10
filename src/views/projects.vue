@@ -10,6 +10,34 @@
   <div class="experience">Projects</div>
 
   <div class="project project1">
+    <div class="projLeft">
+      <div class="projTitle projAlt">Vanilla JS Todo Application</div>
+      <div class="projComponent projDesc">
+        This is a basic CRUD application that allows users to add, delete, edit,
+        and clear all todos in the list.
+      </div>
+      <div class="projComponent projTech projTech2">
+        Vanilla JS --- HTML --- CSS
+      </div>
+      <div class="projComponent projTech projTech2">
+        <a href="https://github.com/nemanjaone/vanilla-js-todo" target="_blank"
+          ><i class="fa fa-github gitHub" style="font-size: 24px"></i
+        ></a>
+      </div>
+    </div>
+    <div class="projRight projComponent">
+      <div class="projImage projImage2">
+        <a href="https://github.com/nemanjaone/vanilla-js-todo" target="_blank"
+          ><img
+            src="https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+            alt=""
+            srcset=""
+        /></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project project1">
     <div class="projLeft projComponent">
       <div class="projImage">
         <a href="https://github.com/nemanjaone/weatherapp_vue" target="_blank"
