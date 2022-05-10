@@ -14,7 +14,8 @@
       <div class="projTitle projAlt">Vanilla JS Todo Application</div>
       <div class="projComponent projDesc">
         This is a basic CRUD application that allows users to add, delete, edit,
-        and clear all todos in the list.
+        and clear all todos in the list. <br /><br />
+        To be implemented: cache user input so it remains on page refresh.
       </div>
       <div class="projComponent projTech projTech2">
         Vanilla JS --- HTML --- CSS
