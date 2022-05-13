@@ -28,7 +28,7 @@
     </div>
     <div class="projRight projComponent">
       <div class="projImage projImage2">
-        <a href="https://github.com/nemanjaone/vanilla-js-todo" target="_blank"
+        <a href="https://nem-todo.herokuapp.com/index.html" target="_blank"
           ><img
             src="https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
             alt=""
