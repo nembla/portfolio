@@ -41,7 +41,7 @@
   <div class="project project1">
     <div class="projLeft projComponent">
       <div class="projImage">
-        <a href="https://github.com/nemanjaone/weatherapp_vue" target="_blank"
+        <a href="https://nem-clouds.herokuapp.com/" target="_blank"
           ><img
             src="https://images.unsplash.com/photo-1504253163759-c23fccaebb55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
             alt=""
