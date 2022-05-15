@@ -15,7 +15,7 @@
       <div class="projComponent projDesc">
         This is a basic CRUD application that allows users to add, delete, edit,
         and clear all todos in the list. <br /><br />
-        To be implemented: cache user input so it remains on page refresh.
+        To be implemented: Use MongoDB to store user data.
       </div>
       <div class="projComponent projTech projTech2">
         Vanilla JS --- HTML --- CSS

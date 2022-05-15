@@ -48,10 +48,9 @@
         </p>
         <br />
         <p>
-          I am actively looking for full time web developer positions
-          (front-end, back-end, and full-stack engineer). I am interested in
-          environments that are conducive to learning, collaborating, and
-          growing as a SWE!
+          I am actively looking for full time web developer positions. I am
+          interested in environments that are conducive to learning,
+          collaborating, and growing as a SWE!
         </p>
       </div>
       <div class="rightinfo">
@@ -81,7 +80,6 @@
                   <li>MongoDB</li>
                   <li>Express.js</li>
                   <li>Node.js</li>
-                  <li>Django</li>
                 </ul>
               </li>
             </ul>
