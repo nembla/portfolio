@@ -14,8 +14,7 @@
       <div class="projTitle projAlt">Vanilla JS Todo Application</div>
       <div class="projComponent projDesc">
         This is a basic CRUD application that allows users to add, delete, edit,
-        and clear all todos in the list. <br /><br />
-        To be implemented: Use MongoDB to store user data.
+        and clear all todos in the list.
       </div>
       <div class="projComponent projTech projTech2">
         Vanilla JS --- HTML --- CSS
