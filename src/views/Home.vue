@@ -62,7 +62,6 @@
                 Front-End Web Development
                 <ul>
                   <li>React</li>
-                  <li>Vue.js</li>
                   <li>JavaScript ✓</li>
                   <li>HTML / CSS ✓</li>
                 </ul>
@@ -77,9 +76,9 @@
               <li>
                 Back-End Web Development
                 <ul>
-                  <li>MongoDB</li>
-                  <li>Express.js</li>
-                  <li>Node.js</li>
+                  <li>MongoDB ✓</li>
+                  <li>Express.js ✓</li>
+                  <li>Node.js ✓</li>
                 </ul>
               </li>
             </ul>
