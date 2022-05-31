@@ -10,14 +10,47 @@
   <div class="experience">Projects</div>
 
   <div class="project project1">
-    <div class="projLeft">
-      <div class="projTitle projAlt">Vanilla JS Todo Application</div>
+    <div class="projLeft projComponent">
+      <div class="projImage">
+        <a href="https://nem-crypto.herokuapp.com/" target="_blank"
+          ><img
+            src="https://images.unsplash.com/photo-1631603090989-93f9ef6f9d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80"
+            alt=""
+            srcset=""
+        /></a>
+      </div>
+    </div>
+    <div class="projRight">
+      <div class="projTitle">Crypto Dash</div>
       <div class="projComponent projDesc">
-        This is a basic CRUD application that allows users to add, delete, edit,
-        and clear all todos in the list.
+        Crypto Dashboard is a webapp used to track the 10 most popular coins (by
+        market cap) in one place. It uses the the CoinCap API, Bootstrap CSS
+        framework for styling and responsiveness, and Express.js to server the
+        application.
+        <br />
+        The price of the coins may be updated by single-clicking on the 'Update
+        Price' button. The applicaiton will then make a single API request using
+        Axios, to the CoinCap API.
+      </div>
+      <div class="projComponent projTech">
+        Express.js --- Bootstrap --- Axios
+      </div>
+      <div class="projComponent projTech">
+        <a href="https://github.com/nemanjaone/crypto-dash" target="_blank"
+          ><i class="fa fa-github gitHub" style="font-size: 24px"></i
+        ></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project project1">
+    <div class="projLeft">
+      <div class="projTitle projAlt">Todo Keeper</div>
+      <div class="projComponent projDesc">
+        This is a basic 'todo list' application, built with vanilla javascript.
       </div>
       <div class="projComponent projTech projTech2">
-        Vanilla JS --- HTML --- CSS
+        JavaScript --- HTML --- CSS
       </div>
       <div class="projComponent projTech projTech2">
         <a href="https://github.com/nemanjaone/vanilla-js-todo" target="_blank"
